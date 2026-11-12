@@ -1,4 +1,5 @@
 ﻿# 定義提示字串
+#addint note at ask.ps1 to learn how to use git branches.
 $promptMessage = "請依據以下內容用正體中文進行總結並解釋相關概念："
 # edited by Tomer Tanami to learn how to use git
 # 讀取命令列參數的內容
