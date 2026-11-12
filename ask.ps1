@@ -57,6 +57,7 @@ if (Test-Path $htmlFilePath) {
 }
 
 # 將 HTML 內容寫入檔案
+# remove the e from Value to see the effewects on git commit
 Set-Content -Path $htmlFilePath -Valu $htmlContent
 
 # 使用 Chrome 開啟生成的 HTML 檔案
