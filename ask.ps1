@@ -57,7 +57,7 @@ if (Test-Path $htmlFilePath) {
 }
 
 # 將 HTML 內容寫入檔案
-Set-Content -Path $htmlFilePath -Value $htmlContent
+Set-Content -Path $htmlFilePath -Valu $htmlContent
 
 # 使用 Chrome 開啟生成的 HTML 檔案
 Start-Process "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" -ArgumentList "--profile-directory=Default", $htmlFilePath
